@@ -149,17 +149,19 @@ span{
 }
 
 .secondary-img{
-    width: 35%;
+    width: 400px;
     display: block;
+    padding: 0 0 0 50px;
 }
 
 .secondary-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .secondary-text{
     font-size: 17px;
+    padding: 0 50px 0 0;
 }
 
 .service{
@@ -181,7 +183,8 @@ span{
     display: grid;
     grid-template-rows: 230px 230px;
     grid-template-columns: 1fr 1fr;
-    padding: 0 15% 0 15%;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .grid{
@@ -272,8 +275,7 @@ span{
 
 .blog-content{
     display: flex;
-    justify-content: space-between;
-    padding: 0 18%;
+    justify-content: center;
 }
 
 .card-section{
@@ -281,6 +283,7 @@ span{
     border-radius: 10px;
     background-color: #fff;
     position: relative;
+    margin: 20px;
 }
 
 .card-img{
@@ -368,6 +371,7 @@ span{
 
 .recruit{
     position: relative;
+    width: 50%;
 }
 
 .recruit-img{
@@ -386,6 +390,7 @@ span{
 
 .interview{
     position: relative;
+    width: 50%;
 }
 
 .interview-img{
@@ -401,6 +406,7 @@ span{
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .inpuiry{
     text-align: center;
